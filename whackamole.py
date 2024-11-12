@@ -32,6 +32,7 @@ def main():
 
         screen.blit(mole_image, mole_image.get_rect(topleft=mole_pos))
 
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
