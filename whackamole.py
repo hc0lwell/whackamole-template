@@ -30,7 +30,9 @@ def main():
         draw_grid(screen)
 
 
+
         screen.blit(mole_image, mole_image.get_rect(topleft=mole_pos))
+
 
 
         for event in pygame.event.get():
